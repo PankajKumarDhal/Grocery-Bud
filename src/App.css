@@ -1,0 +1,76 @@
+.container{
+  width: 100%;
+  display: flex;
+  background-color: rgb(203, 215, 223);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1{
+  font-size: 3rem;
+  color: blue;
+}
+.outputcontainer{
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+
+}
+.container .input_box{
+  display: flex;
+  justify-content: center;
+}
+.container .input_box input{
+  padding: 0.5rem 1rem;
+  border-radius: 0.8rem;
+}
+.container .input_box button{
+  background-color: rgb(15, 48, 109);
+  /* border: 1px solid black; */
+  color: white;
+  font-size: 1.3rem;
+  padding: 0.3rem 1rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+.container .input_box button:hover{
+  background-color: white;
+  color: rgb(18, 15, 173);
+}
+.saved_item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+.outputcontainer{
+  width: 70vh;
+  background-color: rgb(203, 212, 218);
+  display: flex;
+ 
+}
+.outputcontainer>input{
+  /* width: 5rem;    */
+  
+}
+.outputcontainer p{
+  color: rgb(0, 0, 0);
+}
+.outputcontainer button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(8, 42, 87);
+  color: white;
+  cursor: pointer;
+ 
+}
+.outputcontainer button:hover{
+  background-color: white;
+  color: blue;
+}
